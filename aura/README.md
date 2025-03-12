@@ -5,10 +5,10 @@ This is a fashion e-commerce website designed to provide a seamless shopping exp
 
 
 🎨 Key Features
-✔️ Landing Page: Displays featured collections, categories, and best-selling items.
-✔️ Product Categories: Users can explore different clothing categories like tops, dresses, ethnic wear, and more.
-✔️ Filtering & Sorting: Products can be sorted based on color, size, price, and brand.
-✔️ Shopping Cart: Users can add or remove items and view the total cost before checkout.
-✔️ Responsive Design: Optimized for both desktop and mobile devices.
-✔️ Contact Page: Allows users to reach customer support.
+✔️ Landing Page: Displays featured collections, categories, and best-selling items.           
+✔️ Product Categories: Users can explore different clothing categories like tops, dresses, ethnic wear, and more.              
+✔️ Filtering & Sorting: Products can be sorted based on color, size, price, and brand.             
+✔️ Shopping Cart: Users can add or remove items and view the total cost before checkout.             
+✔️ Responsive Design: Optimized for both desktop and mobile devices.           
+✔️ Contact Page: Allows users to reach customer support.              
 
