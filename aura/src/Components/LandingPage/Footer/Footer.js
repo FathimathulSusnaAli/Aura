@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import dicovercard_icon from "../../Assets/dicovercard_icon.png";
 
 const Footer = () => {
   return (
@@ -66,7 +67,7 @@ const Footer = () => {
         <div className="payment-icons">
           <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" />
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Discover_Card_logo.svg" alt="Discover Logo" />
+          <img src={dicovercard_icon} alt="Discover Logo" />
 
         </div>
       </div>

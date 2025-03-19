@@ -1,13 +1,13 @@
 import React from "react";
 import "./LatestCollection.css";
-import imag1 from "../Assets/latest1.png";
-import imag2 from "../Assets/latest2.png";
-import imag3 from "../Assets/latest3.png";
-import imag4 from "../Assets/latest4.png";
-import imag5 from "../Assets/latest5.png";
-import imag6 from "../Assets/latest6.png";
-import imag7 from "../Assets/latest7.png";
-import imag8 from "../Assets/latest8.png";
+import imag1 from "../../Assets/latest1.png";
+import imag2 from "../../Assets/latest2.png";
+import imag3 from "../../Assets/latest3.png";
+import imag4 from "../../Assets/latest4.png";
+import imag5 from "../../Assets/latest5.png";
+import imag6 from "../../Assets/latest6.png";
+import imag7 from "../../Assets/latest7.png";
+import imag8 from "../../Assets/latest8.png";
 
 const products = [
   {
@@ -70,13 +70,18 @@ const products = [
 
 const LatestCollection = () => {
     return (
+      <>
+      <h1><center>LATEST COLLECTION</center></h1>
       <div className="latest-container">
+        
         {products.map((product) => (
           <div key={product.id} className="latest-card">
             <div className="image-container">
+              
               <img src={product.image} alt={product.name} className="latest-image" />
               <div className="discount-badge">{product.discount}</div>
             </div>
+            
             <h3 className="latest-title">{product.name}</h3>
             <div className="price-container">
               <span className="latest-price">{product.price}</span>
@@ -85,6 +90,7 @@ const LatestCollection = () => {
           </div>
         ))}
       </div>
+      </>
     );
   };
 

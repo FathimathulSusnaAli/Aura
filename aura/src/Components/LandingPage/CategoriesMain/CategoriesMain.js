@@ -1,19 +1,19 @@
 import React from "react";
 import "./CategoriesMain.css";
 
-import img1 from "../Assets/categories1.png";
-import img2 from "../Assets/categories2.png";
-import img3 from "../Assets/categories3.png";
-import img4 from "../Assets/categories4.png";
+import img1 from "../../Assets/categories1.png";
+import img2 from "../../Assets/categories2.png";
+import img3 from "../../Assets/categories3.png";
+import img4 from "../../Assets/categories4.png";
 
-import brand1 from "../Assets/brand1.png";
-import brand2 from "../Assets/brand2.png";
-import brand3 from "../Assets/brand3.png";
-import brand4 from "../Assets/brand4.png";
-import brand5 from "../Assets/brand5.png";
-import brand6 from "../Assets/brand6.png";
-import brand7 from "../Assets/brand7.png";
-import brand8 from "../Assets/brand8.png";
+import brand1 from "../../Assets/brand1.png";
+import brand2 from "../../Assets/brand2.png";
+import brand3 from "../../Assets/brand3.png";
+import brand4 from "../../Assets/brand4.png";
+import brand5 from "../../Assets/brand5.png";
+import brand6 from "../../Assets/brand6.png";
+import brand7 from "../../Assets/brand7.png";
+import brand8 from "../../Assets/brand8.png";
 
 const brands = [
   { name: "MANGO", img: brand1 },

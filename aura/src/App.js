@@ -1,13 +1,13 @@
 import "./App.css";
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/LandingPage/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ShoppingCart from "./Pages/ShoppingCart";
-import Women from "./Pages/Women.js";
+// import Cart from "./Pages/LandingPages/Cart";
+import Women from "./Pages/LandingPages/Women";
 
-import CategoriesMain from "./Components/CategoriesMain/CategoriesMain";
-import Footer from "./Components/Footer/Footer";
-import LoginSignup from './Pages/LoginSignup';
+import CategoriesMain from "./Components/LandingPage/CategoriesMain/CategoriesMain";
+import Footer from "./Components/LandingPage/Footer/Footer";
+import LoginSignup from './Pages/LandingPages/LoginSignup';
 
 
 
@@ -25,14 +25,12 @@ function App() {
           <Route path="/product" element={<product />}>
             <Route path=":productId" element={<product />} />
           </Route>
-          <Route path="/shoppingcart" element={<ShoppingCart />} />
+          {/* <Route path="/cart" element={<Cart />} /> */}
           <Route path='/login' element={<LoginSignup/>}/>
         </Routes>
       </BrowserRouter>
       
-      {/* <div>
-      <CategoriesMain />
-    </div> */}
+      
     <Footer />
     </div>
   );

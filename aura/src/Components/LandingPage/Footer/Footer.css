@@ -92,7 +92,10 @@
 }
 
 .payment-icons img {
-  width: 60px; /* Slightly larger payment icons */
+  width: 40px; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 8px; /* Add spacing between icons */
+  vertical-align: middle; /* Align icons vertically */
 }
 
 /* RESPONSIVENESS */

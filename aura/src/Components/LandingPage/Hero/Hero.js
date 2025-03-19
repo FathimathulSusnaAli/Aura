@@ -37,12 +37,12 @@
 // Main Part for the Banner Images/Hero Images.
 import React from 'react';
 import './Hero.css';
-import arrow_icon from '../Assets/arrow_icon.png';
-import hero_image1 from '../Assets/hero_image1.png'; 
-import hero_image2 from '../Assets/hero_image2.png';
-import hero_image3 from '../Assets/hero_image3.png';
-import hero_image4 from '../Assets/hero_image4.png';
-import hero_image5 from '../Assets/hero_image5.png';
+import arrow_icon from '../../Assets/arrow_icon.png';
+import hero_image1 from '../../Assets/hero_image1.png'; 
+import hero_image2 from '../../Assets/hero_image2.png';
+import hero_image3 from '../../Assets/hero_image3.png';
+import hero_image4 from '../../Assets/hero_image4.png';
+import hero_image5 from '../../Assets/hero_image5.png';
 const Hero = () => {
     return (
       <div className="hero">
