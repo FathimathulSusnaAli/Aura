@@ -8,8 +8,8 @@
 }
 
 .latest-card {
-    flex: 1 1 calc(20% - 20px); /* Ensures 5 cards per row */
-    max-width: 220px;
+    flex: 1 1 calc(25% - 20px); /* Ensures 5 cards per row */
+    max-width: 280px;
     min-width: 200px;
     display: flex;
     flex-direction: column;  /* Makes text & button stay at the bottom */

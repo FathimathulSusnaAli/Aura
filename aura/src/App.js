@@ -4,6 +4,7 @@ import Navbar from "./Components/LandingPage/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Cart from "./Pages/LandingPages/Cart";
 import Women from "./Pages/LandingPages/Women";
+import FilterPage from "./Pages/FilterPages/FilterPage.js";
 
 import CategoriesMain from "./Components/LandingPage/CategoriesMain/CategoriesMain";
 import Footer from "./Components/LandingPage/Footer/Footer";
@@ -27,6 +28,7 @@ function App() {
           </Route>
           {/* <Route path="/cart" element={<Cart />} /> */}
           <Route path='/login' element={<LoginSignup/>}/>
+          <Route path="/filters" element={<FilterPage />} />
         </Routes>
       </BrowserRouter>
       

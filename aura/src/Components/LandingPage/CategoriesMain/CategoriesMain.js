@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./CategoriesMain.css";
 
 import img1 from "../../Assets/categories1.png";
@@ -34,6 +35,14 @@ const categories = [
 ];
 
 const CategoriesMain = () => {
+  /*for filterpage*/
+  const navigate = useNavigate(); // Initialize navigation
+
+  // Function to handle click and navigate to Filter Page
+  const handleCategoryClick = (categoryName) => {
+    navigate(`/filters?category=${encodeURIComponent(categoryName)}`);
+  };
+  /*for filterpage*/
   return (
     <>
     <div className="brands-container">
@@ -51,7 +60,11 @@ const CategoriesMain = () => {
         <h2>CATEGORIES</h2>
         <div className="categories-grid">
           {categories.map((category, index) => (
-            <div key={index} className="category-box">
+            <div key={index} className="category-box"
+            onClick={() => handleCategoryClick(category.name)}
+              style={{ cursor: "pointer" }} // Add pointer cursor
+              >
+              
               <img src={category.img} alt={category.name} />
               <p>{category.name}</p>
             </div>
