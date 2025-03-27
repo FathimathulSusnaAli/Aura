@@ -11,8 +11,6 @@ import Signup from "./Pages/AuthPages/Signup";
 import AuthPage from "./Pages/AuthPages/AuthPage"; 
 
 
-
-// Here we have
 function App() {
   return (
     <div>
