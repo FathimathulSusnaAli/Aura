@@ -9,6 +9,9 @@ import Footer from "./Components/LandingPage/Footer/Footer";
 import Login from "./Pages/AuthPages/Login"; 
 import Signup from "./Pages/AuthPages/Signup"; 
 import AuthPage from "./Pages/AuthPages/AuthPage"; 
+import ProfilePage from "./Pages/ProfilePages/ProfilePage.js";
+
+
 
 
 function App() {
@@ -32,6 +35,8 @@ function App() {
 
           {/* Optional AuthPage for Grouped Auth Routes */}
           <Route path="/auth/*" element={<AuthPage />} />
+
+          <Route path="/profile/*" element={<ProfilePage />} />
         </Routes>
       </BrowserRouter>
       

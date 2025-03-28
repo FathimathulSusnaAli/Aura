@@ -1,0 +1,78 @@
+/* Profile Section */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* Ensures the form is not too wide */
+  margin: auto;
+}
+
+.profile-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+input[type="date"] {
+  cursor: pointer;
+}
+
+.edit-btn {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-btn i {
+  margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    width: 90%;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
